@@ -4853,7 +4853,7 @@ GameObject:
   - component: {fileID: 705978973}
   - component: {fileID: 705978979}
   m_Layer: 0
-  m_Name: MagnetNode (1)
+  m_Name: North MagnetNode
   m_TagString: Env Magnet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4981,7 +4981,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61ddcb6213c8e6d4c8cf4cadfb53bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  polarity: NULL
 --- !u!212 &705978978
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5940,7 +5939,7 @@ GameObject:
   - component: {fileID: 1935249679}
   - component: {fileID: 1935249680}
   m_Layer: 0
-  m_Name: MagnetNode
+  m_Name: North MagnetNode
   m_TagString: Env Magnet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6029,7 +6028,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61ddcb6213c8e6d4c8cf4cadfb53bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  polarity: NULL
 --- !u!212 &1935249677
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6178,10 +6176,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 368481742}
     m_Modifications:
-    - target: {fileID: 567173799294480709, guid: 1fc0d6d73d521c74db554ae72680e54c, type: 3}
-      propertyPath: m_TagString
-      value: Magnet
-      objectReference: {fileID: 0}
     - target: {fileID: 585954697673766027, guid: 1fc0d6d73d521c74db554ae72680e54c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -6225,10 +6219,6 @@ PrefabInstance:
     - target: {fileID: 3336536510107163739, guid: 1fc0d6d73d521c74db554ae72680e54c, type: 3}
       propertyPath: m_Name
       value: PenguinTest
-      objectReference: {fileID: 0}
-    - target: {fileID: 3336536510107163739, guid: 1fc0d6d73d521c74db554ae72680e54c, type: 3}
-      propertyPath: m_TagString
-      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

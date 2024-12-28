@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class MagnetNode : MonoBehaviour
 {
-    public string polarity;
 
     PointEffector2D magField;
     SpriteRenderer nodeSpriteRenderer;

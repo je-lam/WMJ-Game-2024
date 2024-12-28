@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1688579063858961336}
   m_Layer: 6
   m_Name: S-Magnet
-  m_TagString: South Magnet
+  m_TagString: PlayerMagnet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 6580601002849432971}
   m_Layer: 0
   m_Name: PenguinTest
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -256,3 +256,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fecfc43eaf116554191e641e97cd4954, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  holdDownForMagnet: 0

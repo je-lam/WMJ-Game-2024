@@ -5,8 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - South Magnet
-  - Magnet
   - Env Magnet
+  - PlayerMagnet
   layers:
   - Default
   - TransparentFX
