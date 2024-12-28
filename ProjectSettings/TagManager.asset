@@ -6,6 +6,7 @@ TagManager:
   tags:
   - South Magnet
   - Magnet
+  - Env Magnet
   layers:
   - Default
   - TransparentFX

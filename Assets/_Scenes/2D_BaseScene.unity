@@ -119,6 +119,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &44371667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 44371669}
+  - component: {fileID: 44371668}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &44371668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44371667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b618ee1726633f459493f8668e589b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &44371669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44371667}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.487705, y: 2.4350586, z: -0.24035399}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &210002819
 GameObject:
   m_ObjectHideFlags: 0
@@ -4807,9 +4851,10 @@ GameObject:
   - component: {fileID: 705978975}
   - component: {fileID: 705978974}
   - component: {fileID: 705978973}
+  - component: {fileID: 705978979}
   m_Layer: 0
   m_Name: MagnetNode (1)
-  m_TagString: Untagged
+  m_TagString: Env Magnet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4936,6 +4981,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61ddcb6213c8e6d4c8cf4cadfb53bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  polarity: NULL
 --- !u!212 &705978978
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4991,6 +5037,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &705978979
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705978971}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &839143379
 GameObject:
   m_ObjectHideFlags: 0
@@ -5150,9 +5242,9 @@ MonoBehaviour:
   Axis: 0
   UpdateType: 0
   FollowHorizontal: 1
-  HorizontalFollowSmoothness: 0.1
+  HorizontalFollowSmoothness: 0
   FollowVertical: 1
-  VerticalFollowSmoothness: 0.1
+  VerticalFollowSmoothness: 0
   OffsetX: 0.1
   OffsetY: 0
   IsRelativeOffset: 1
@@ -5846,9 +5938,10 @@ GameObject:
   - component: {fileID: 1935249674}
   - component: {fileID: 1935249678}
   - component: {fileID: 1935249679}
+  - component: {fileID: 1935249680}
   m_Layer: 0
   m_Name: MagnetNode
-  m_TagString: Untagged
+  m_TagString: Env Magnet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5936,6 +6029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61ddcb6213c8e6d4c8cf4cadfb53bcda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  polarity: NULL
 --- !u!212 &1935249677
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6030,6 +6124,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ecffb102689aea4f97ca9341ecd4f91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &1935249680
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935249672}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &8442163483129104369
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6086,6 +6226,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PenguinTest
       objectReference: {fileID: 0}
+    - target: {fileID: 3336536510107163739, guid: 1fc0d6d73d521c74db554ae72680e54c, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6100,3 +6244,4 @@ SceneRoots:
   - {fileID: 368481742}
   - {fileID: 1902269898}
   - {fileID: 1562058636}
+  - {fileID: 44371669}
