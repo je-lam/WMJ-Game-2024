@@ -10,7 +10,7 @@ public class MagnetNode : MonoBehaviour
     UnityEngine.Color originalColor;
     void Start()
     {
-        magField = GetComponent<PointEffector2D>();
+        magField = GetComponentInChildren<PointEffector2D>();
         nodeSpriteRenderer = GetComponent<SpriteRenderer>();
         originalColor = nodeSpriteRenderer.color;
     }
