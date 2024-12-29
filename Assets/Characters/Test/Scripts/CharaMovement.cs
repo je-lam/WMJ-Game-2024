@@ -54,6 +54,7 @@ public class CharaMovement : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.C))
             {
+                print("holding magnet");
                 magneticField.enabled = true;
             }
             else
