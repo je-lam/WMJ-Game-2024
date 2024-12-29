@@ -34,9 +34,7 @@ public class CharaMovement : MonoBehaviour
         {
             MoveHoriz(moveDirection);
         }
-
         HandleMagnet();
-
     }
 
     public void UpdateMoveInputs()

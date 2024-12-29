@@ -1,0 +1,2267 @@
+fileFormatVersion: 2
+guid: 04710a0c59d727845aa485ebf15d5886
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6143284128589911445
+    second: Select_Level_icons_0
+  - first:
+      213: -369481887554995414
+    second: Select_Level_icons_1
+  - first:
+      213: -8291895985873569992
+    second: Select_Level_icons_2
+  - first:
+      213: 141359479348312296
+    second: Select_Level_icons_3
+  - first:
+      213: -2118856509362026706
+    second: Select_Level_icons_4
+  - first:
+      213: 5177482901418459646
+    second: Select_Level_icons_5
+  - first:
+      213: 2193100613223852661
+    second: Select_Level_icons_6
+  - first:
+      213: -1261482665708306387
+    second: Select_Level_icons_7
+  - first:
+      213: -8150470381166089537
+    second: Select_Level_icons_8
+  - first:
+      213: 3501163034669570720
+    second: Select_Level_icons_9
+  - first:
+      213: -1886589626007828648
+    second: Select_Level_icons_10
+  - first:
+      213: -7125531853545153969
+    second: Select_Level_icons_11
+  - first:
+      213: 2761351657491546202
+    second: Select_Level_icons_12
+  - first:
+      213: -7529807047166415256
+    second: Select_Level_icons_13
+  - first:
+      213: -4914935772259461894
+    second: Select_Level_icons_14
+  - first:
+      213: -7991128198420003081
+    second: Select_Level_icons_15
+  - first:
+      213: 4469267758119275871
+    second: Select_Level_icons_16
+  - first:
+      213: 2909167507272278684
+    second: Select_Level_icons_17
+  - first:
+      213: 6599864486683559244
+    second: Select_Level_icons_18
+  - first:
+      213: 7314044744898580380
+    second: Select_Level_icons_19
+  - first:
+      213: -6499893307714085592
+    second: Select_Level_icons_20
+  - first:
+      213: -3793431869084854408
+    second: Select_Level_icons_21
+  - first:
+      213: -1745897733275542311
+    second: Select_Level_icons_22
+  - first:
+      213: 5220648318621074290
+    second: Select_Level_icons_23
+  - first:
+      213: 6699523077757479663
+    second: Select_Level_icons_24
+  - first:
+      213: -1444813459647636388
+    second: Select_Level_icons_25
+  - first:
+      213: -7658219739111269383
+    second: Select_Level_icons_26
+  - first:
+      213: -3789831674865662990
+    second: Select_Level_icons_27
+  - first:
+      213: 686080166236257394
+    second: Select_Level_icons_28
+  - first:
+      213: 2624011483748300796
+    second: Select_Level_icons_29
+  - first:
+      213: 2950586190493408146
+    second: Select_Level_icons_30
+  - first:
+      213: 8221952781964397024
+    second: Select_Level_icons_31
+  - first:
+      213: 5489801333211662445
+    second: Select_Level_icons_32
+  - first:
+      213: -463168791189008783
+    second: Select_Level_icons_33
+  - first:
+      213: 7660979450018480584
+    second: Select_Level_icons_34
+  - first:
+      213: 6661415530605712907
+    second: Select_Level_icons_35
+  - first:
+      213: 7031751189515084620
+    second: Select_Level_icons_36
+  - first:
+      213: -4973301938669892151
+    second: Select_Level_icons_37
+  - first:
+      213: 4548639244326561445
+    second: Select_Level_icons_38
+  - first:
+      213: -5734489966672269181
+    second: Select_Level_icons_39
+  - first:
+      213: -157587040164660041
+    second: Select_Level_icons_40
+  - first:
+      213: 6788031942341487764
+    second: Select_Level_icons_41
+  - first:
+      213: -6730517025533503927
+    second: Select_Level_icons_42
+  - first:
+      213: 2290940017929434743
+    second: Select_Level_icons_43
+  - first:
+      213: -6723733327263387807
+    second: Select_Level_icons_44
+  - first:
+      213: -927947486317646682
+    second: Select_Level_icons_45
+  - first:
+      213: -7469165080319072377
+    second: Select_Level_icons_46
+  - first:
+      213: 2700585620307637631
+    second: Select_Level_icons_47
+  - first:
+      213: 3359737603201272823
+    second: Select_Level_icons_48
+  - first:
+      213: -2111389743724107876
+    second: Select_Level_icons_49
+  - first:
+      213: -7250300490281008689
+    second: Select_Level_icons_50
+  - first:
+      213: -3914205496320242487
+    second: Select_Level_icons_51
+  - first:
+      213: 2725141198728336753
+    second: Select_Level_icons_52
+  - first:
+      213: 4150918875838446065
+    second: Select_Level_icons_53
+  - first:
+      213: -8249575494293298592
+    second: Select_Level_icons_54
+  - first:
+      213: 1512507385237687241
+    second: Select_Level_icons_55
+  - first:
+      213: -1436349684804614479
+    second: Select_Level_icons_56
+  - first:
+      213: -3346885622314252246
+    second: Select_Level_icons_57
+  - first:
+      213: -5846905505609233463
+    second: Select_Level_icons_58
+  - first:
+      213: -5465166187187218686
+    second: Select_Level_icons_59
+  - first:
+      213: 6752161080726886288
+    second: Select_Level_icons_60
+  - first:
+      213: 584809282999928023
+    second: Select_Level_icons_61
+  - first:
+      213: -1991108109545317139
+    second: Select_Level_icons_62
+  - first:
+      213: 4971566682157495384
+    second: Select_Level_icons_63
+  - first:
+      213: 7602629647022849054
+    second: Select_Level_icons_64
+  - first:
+      213: -4255813949443558929
+    second: Select_Level_icons_65
+  - first:
+      213: -4430974466936152636
+    second: Select_Level_icons_66
+  - first:
+      213: 2365634499755372846
+    second: Select_Level_icons_67
+  - first:
+      213: -7465978841949167434
+    second: Select_Level_icons_68
+  - first:
+      213: -7880106772738274182
+    second: Select_Level_icons_69
+  - first:
+      213: -4517508023601260197
+    second: Select_Level_icons_70
+  - first:
+      213: -6161781738398223797
+    second: Select_Level_icons_71
+  - first:
+      213: 7045744353312346956
+    second: Select_Level_icons_72
+  - first:
+      213: -1304960408303038776
+    second: Select_Level_icons_73
+  - first:
+      213: -7582871950897007945
+    second: Select_Level_icons_74
+  - first:
+      213: -6425915265088099876
+    second: Select_Level_icons_75
+  - first:
+      213: -971968766399425276
+    second: Select_Level_icons_76
+  - first:
+      213: 6704751261744823837
+    second: Select_Level_icons_77
+  - first:
+      213: 7281165014979996430
+    second: Select_Level_icons_78
+  - first:
+      213: -3093847486258679074
+    second: Select_Level_icons_79
+  - first:
+      213: 3245929484453326473
+    second: Select_Level_icons_80
+  - first:
+      213: 2108458557591853706
+    second: Select_Level_icons_81
+  - first:
+      213: -4672885058934162267
+    second: Select_Level_icons_82
+  - first:
+      213: 545335537896633808
+    second: Select_Level_icons_83
+  - first:
+      213: -7105765800280073134
+    second: Select_Level_icons_84
+  - first:
+      213: -7373434450986442163
+    second: Select_Level_icons_85
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Select_Level_icons_0
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1845
+        width: 645
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59595eecd54514550800000000000000
+      internalID: 6143284128589911445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_1
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 2038
+        width: 48
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2bf75d4e265fdaf0800000000000000
+      internalID: -369481887554995414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_2
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 2044
+        width: 41
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837b48f78844dec80800000000000000
+      internalID: -8291895985873569992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_3
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 2035
+        width: 47
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8b03092b536f100800000000000000
+      internalID: 141359479348312296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_4
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 2039
+        width: 39
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27c37d1b3f4892e0800000000000000
+      internalID: -2118856509362026706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_5
+      rect:
+        serializedVersion: 2
+        x: 3361
+        y: 1589
+        width: 481
+        height: 581
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1c4b1744d1ad740800000000000000
+      internalID: 5177482901418459646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_6
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 2013
+        width: 58
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a26ef53657f6e10800000000000000
+      internalID: 2193100613223852661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_7
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 2036
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20c42cf2305e7ee0800000000000000
+      internalID: -1261482665708306387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_8
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 2035
+        width: 39
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbaa0421f56b3ee80800000000000000
+      internalID: -8150470381166089537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_9
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1885
+        width: 220
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa5536ea31a69030800000000000000
+      internalID: 3501163034669570720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_10
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1992
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857cdd01bbc71d5e0800000000000000
+      internalID: -1886589626007828648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_11
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 1947
+        width: 104
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ad5b928860d1d90800000000000000
+      internalID: -7125531853545153969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_12
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 1959
+        width: 168
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5048b4c3ba425620800000000000000
+      internalID: 2761351657491546202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_13
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1961
+        width: 40
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ea96e9260c08790800000000000000
+      internalID: -7529807047166415256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_14
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 1933
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af45d90a4f3aacbb0800000000000000
+      internalID: -4914935772259461894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_15
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1940
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6819a0e3fc91190800000000000000
+      internalID: -7991128198420003081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_16
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 244
+        width: 1157
+        height: 1691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d4ec8c857060e30800000000000000
+      internalID: 4469267758119275871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_17
+      rect:
+        serializedVersion: 2
+        x: 3330
+        y: 1893
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92a2173f607f5820800000000000000
+      internalID: 2909167507272278684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_18
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 1899
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c454d7678cd679b50800000000000000
+      internalID: 6599864486683559244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_19
+      rect:
+        serializedVersion: 2
+        x: 3357
+        y: 1906
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f0efaa1f4b08560800000000000000
+      internalID: 7314044744898580380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_20
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1882
+        width: 43
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d53cb797dbbc5a0800000000000000
+      internalID: -6499893307714085592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_21
+      rect:
+        serializedVersion: 2
+        x: 3285
+        y: 1882
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8771d8340d50b5bc0800000000000000
+      internalID: -3793431869084854408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_22
+      rect:
+        serializedVersion: 2
+        x: 3322
+        y: 1891
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc93f1034355c7e0800000000000000
+      internalID: -1745897733275542311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_23
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1763
+        width: 72
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27346a05cf7737840800000000000000
+      internalID: 5220648318621074290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_24
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 1807
+        width: 197
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea244e5ebc79fc50800000000000000
+      internalID: 6699523077757479663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_25
+      rect:
+        serializedVersion: 2
+        x: 3272
+        y: 1878
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cdffa30ddf2fbe0800000000000000
+      internalID: -1444813459647636388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_26
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1804
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb5366e8b988b590800000000000000
+      internalID: -7658219739111269383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_27
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1808
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3cb1dcb20d76bc0800000000000000
+      internalID: -3789831674865662990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_28
+      rect:
+        serializedVersion: 2
+        x: 3047
+        y: 1856
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27cf3f3b642758900800000000000000
+      internalID: 686080166236257394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_29
+      rect:
+        serializedVersion: 2
+        x: 3077
+        y: 1853
+        width: 53
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7fc57ba8c5a6420800000000000000
+      internalID: 2624011483748300796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_30
+      rect:
+        serializedVersion: 2
+        x: 3146
+        y: 1853
+        width: 30
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b5883e18692f820800000000000000
+      internalID: 2950586190493408146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_31
+      rect:
+        serializedVersion: 2
+        x: 3178
+        y: 1854
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9c5015e7e3a1270800000000000000
+      internalID: 8221952781964397024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_32
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 1857
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d680c81f931bf2c40800000000000000
+      internalID: 5489801333211662445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_33
+      rect:
+        serializedVersion: 2
+        x: 3221
+        y: 1859
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ec12a307e7299f0800000000000000
+      internalID: -463168791189008783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_34
+      rect:
+        serializedVersion: 2
+        x: 3232
+        y: 1862
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c14bed5834415a60800000000000000
+      internalID: 7660979450018480584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_35
+      rect:
+        serializedVersion: 2
+        x: 3243
+        y: 1864
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b061603a12a127c50800000000000000
+      internalID: 6661415530605712907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_36
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 1841
+        width: 53
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c432af7737cc59160800000000000000
+      internalID: 7031751189515084620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_37
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 1740
+        width: 32
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cdc1d88c384bfab0800000000000000
+      internalID: -4973301938669892151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_38
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1778
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a66c710b43002f30800000000000000
+      internalID: 4548639244326561445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_39
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1793
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380357802cffa60b0800000000000000
+      internalID: -5734489966672269181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_40
+      rect:
+        serializedVersion: 2
+        x: 3285
+        y: 1825
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bcb7c10c6320ddf0800000000000000
+      internalID: -157587040164660041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_41
+      rect:
+        serializedVersion: 2
+        x: 3293
+        y: 1835
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ce447461fe33e50800000000000000
+      internalID: 6788031942341487764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_42
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 1835
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9465b52dc666892a0800000000000000
+      internalID: -6730517025533503927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_43
+      rect:
+        serializedVersion: 2
+        x: 3341
+        y: 1800
+        width: 63
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7763962fecd0bcf10800000000000000
+      internalID: 2290940017929434743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_44
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1719
+        width: 54
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fa208a92080b2a0800000000000000
+      internalID: -6723733327263387807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_45
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1818
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ace1db7da44f13f0800000000000000
+      internalID: -927947486317646682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_46
+      rect:
+        serializedVersion: 2
+        x: 3238
+        y: 1813
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78764dacee1385890800000000000000
+      internalID: -7469165080319072377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_47
+      rect:
+        serializedVersion: 2
+        x: 3267
+        y: 1820
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75f6f730586a7520800000000000000
+      internalID: 2700585620307637631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_48
+      rect:
+        serializedVersion: 2
+        x: 3274
+        y: 1823
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb8559ac8f20ae20800000000000000
+      internalID: 3359737603201272823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_49
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1224
+        width: 721
+        height: 588
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97ebe6f636d2b2e0800000000000000
+      internalID: -2111389743724107876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_50
+      rect:
+        serializedVersion: 2
+        x: 3047
+        y: 1812
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1c5f92e12c16b90800000000000000
+      internalID: -7250300490281008689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_51
+      rect:
+        serializedVersion: 2
+        x: 3057
+        y: 1806
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc43f5e6d2fda9c0800000000000000
+      internalID: -3914205496320242487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_52
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 1805
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1751cf85b75a1d520800000000000000
+      internalID: 2725141198728336753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_53
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 1804
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f970dd99b60b9930800000000000000
+      internalID: 4150918875838446065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_54
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 1804
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06261eacbce938d80800000000000000
+      internalID: -8249575494293298592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_55
+      rect:
+        serializedVersion: 2
+        x: 3142
+        y: 1804
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb4f3904718df410800000000000000
+      internalID: 1512507385237687241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_56
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 1804
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b60aff529f011ce0800000000000000
+      internalID: -1436349684804614479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_57
+      rect:
+        serializedVersion: 2
+        x: 3172
+        y: 1805
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28c81252497d81d0800000000000000
+      internalID: -3346885622314252246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_58
+      rect:
+        serializedVersion: 2
+        x: 3205
+        y: 1808
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbc2eebb6e9bdea0800000000000000
+      internalID: -5846905505609233463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_59
+      rect:
+        serializedVersion: 2
+        x: 3224
+        y: 1811
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207da36fe44d724b0800000000000000
+      internalID: -5465166187187218686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_60
+      rect:
+        serializedVersion: 2
+        x: 3047
+        y: 1762
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09791fa7abe74bd50800000000000000
+      internalID: 6752161080726886288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_61
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 1758
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4cf86c1f8ad1800800000000000000
+      internalID: 584809282999928023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_62
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 1755
+        width: 42
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: decd62549b92e54e0800000000000000
+      internalID: -1991108109545317139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_63
+      rect:
+        serializedVersion: 2
+        x: 3135
+        y: 1755
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8543a239e8d8ef440800000000000000
+      internalID: 4971566682157495384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_64
+      rect:
+        serializedVersion: 2
+        x: 3163
+        y: 1755
+        width: 180
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c76ad2267f18960800000000000000
+      internalID: 7602629647022849054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_65
+      rect:
+        serializedVersion: 2
+        x: 3350
+        y: 1750
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1b341e2cf40f4c0800000000000000
+      internalID: -4255813949443558929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_66
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1731
+        width: 107
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cdd179d2340282c0800000000000000
+      internalID: -4430974466936152636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_67
+      rect:
+        serializedVersion: 2
+        x: 3305
+        y: 1732
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21f35a3b0c64d020800000000000000
+      internalID: 2365634499755372846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_68
+      rect:
+        serializedVersion: 2
+        x: 3333
+        y: 1743
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0a909bcc3836890800000000000000
+      internalID: -7465978841949167434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_69
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 1746
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c09ca04ac34a290800000000000000
+      internalID: -7880106772738274182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_70
+      rect:
+        serializedVersion: 2
+        x: 3048
+        y: 1711
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59154723669e41c0800000000000000
+      internalID: -4517508023601260197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_71
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1709
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42f84bc724fc7aa0800000000000000
+      internalID: -6161781738398223797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_72
+      rect:
+        serializedVersion: 2
+        x: 3095
+        y: 1706
+        width: 152
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43956dc82387c160800000000000000
+      internalID: 7045744353312346956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_73
+      rect:
+        serializedVersion: 2
+        x: 3246
+        y: 1716
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce06213c69d3ede0800000000000000
+      internalID: -1304960408303038776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_74
+      rect:
+        serializedVersion: 2
+        x: 3274
+        y: 1722
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2b28de22a34c690800000000000000
+      internalID: -7582871950897007945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_75
+      rect:
+        serializedVersion: 2
+        x: 3338
+        y: 1695
+        width: 67
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9e9a3cc1092d6a0800000000000000
+      internalID: -6425915265088099876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_76
+      rect:
+        serializedVersion: 2
+        x: 3268
+        y: 1671
+        width: 42
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405dcf18e8fd282f0800000000000000
+      internalID: -971968766399425276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_77
+      rect:
+        serializedVersion: 2
+        x: 3307
+        y: 1683
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ef6afcfbf0c0d50800000000000000
+      internalID: 6704751261744823837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_78
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 1684
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b62ecf005eb0560800000000000000
+      internalID: 7281165014979996430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_79
+      rect:
+        serializedVersion: 2
+        x: 3318
+        y: 1686
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2f0586a127015d0800000000000000
+      internalID: -3093847486258679074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_80
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1663
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98eaece1babdb0d20800000000000000
+      internalID: 3245929484453326473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_81
+      rect:
+        serializedVersion: 2
+        x: 3047
+        y: 1657
+        width: 216
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a15e413efb24d10800000000000000
+      internalID: 2108458557591853706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_82
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 1670
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acbff10cc3962fb0800000000000000
+      internalID: -4672885058934162267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_83
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1586
+        width: 102
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5b9bb48cb619700800000000000000
+      internalID: 545335537896633808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_84
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 329
+        width: 894
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25cdf2117af336d90800000000000000
+      internalID: -7105765800280073134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Select_Level_icons_85
+      rect:
+        serializedVersion: 2
+        x: 3286
+        y: 19
+        width: 416
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d426356de6c4ca990800000000000000
+      internalID: -7373434450986442163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
