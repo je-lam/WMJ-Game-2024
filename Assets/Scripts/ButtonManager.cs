@@ -24,6 +24,11 @@ public class ButtonManager : MonoBehaviour
         SceneManager.LoadScene("South pole test");
     }
 
+        public void toNorthPole()
+    {
+        SceneManager.LoadScene("North pole test");
+    }
+
     public void toMainMenu()
     {
         SceneManager.LoadScene("mainmenu");
