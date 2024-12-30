@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -6,9 +7,6 @@ public class CharaMovement : MonoBehaviour
     private Rigidbody2D rb;
     const float DEF_SPEED = 2f;
     const float DASH_SPEED = 6.5f;
-
-    const string POLARITY = "SOUTH";
-
     CircleCollider2D magneticField;
 
     float currSpeed;
@@ -18,10 +16,11 @@ public class CharaMovement : MonoBehaviour
     // -1 means pressing DOWN, 1 means pressing UP
 
     const string PENGUIN = "penguin";
-    float rotZ;
     const string BEAR = "bear";
     float rotationZ;
     string activeCharacter;
+
+    Animator activeAnimator;
 
     public bool holdDownForMagnet; //this should later be handled by game manager
     void Start()
@@ -30,9 +29,8 @@ public class CharaMovement : MonoBehaviour
         activeCharacter = PENGUIN;
         currSpeed = DASH_SPEED;
         magneticField = GetComponentInChildren<CircleCollider2D>();
+        activeAnimator = GetComponent<Animator>();
         holdDownForMagnet = true;
-
-
     }
 
     void Update()
@@ -44,6 +42,7 @@ public class CharaMovement : MonoBehaviour
             MoveHoriz(moveDirection);
         }
         HandleMagnet();
+        HandleSwapping();
     }
 
     private void FixedUpdate()
@@ -76,10 +75,49 @@ public class CharaMovement : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.X))
         {
-
+            if (activeCharacter.Equals(PENGUIN))
+            {
+                SwapToBear();
+            }
+            else
+            {
+                SwapToPenguin();
+            }
         }
     }
 
+    void SwapToBear()
+    {
+        SwapToBearAnimation();
+        activeCharacter = BEAR;
+    }
+
+    void SwapToPenguin()
+    {
+        SwapToPenguinAnimation();
+        activeCharacter = PENGUIN;
+    }
+
+
+    void SwapToBearAnimation()
+    {
+        activeAnimator.Play("BearAct");
+    }
+
+    void SwapToPenguinAnimation()
+    {
+        activeAnimator.Play("PenguinAct");
+    }
+
+    void SwapToNorthPolarity()
+    {
+
+    }
+
+    void SwapToSouthPolarity()
+    {
+
+    }
 
 
     void HandleMagnet()
