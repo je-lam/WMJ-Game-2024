@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 2477763225371225235}
   - component: {fileID: 8858536614336348411}
   - component: {fileID: 1688579063858961336}
+  - component: {fileID: 8758423429916272176}
   m_Layer: 6
-  m_Name: S-Magnet
+  m_Name: Magnet
   m_TagString: PlayerMagnet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89,6 +90,18 @@ PointEffector2D:
   m_ForceMode: 0
   m_Drag: 0
   m_AngularDrag: 0
+--- !u!114 &8758423429916272176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567173799294480709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0638d5fd86261394c8d2bd7c73a792c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2220129151028623787
 GameObject:
   m_ObjectHideFlags: 0
@@ -115,7 +128,7 @@ Transform:
   m_GameObject: {fileID: 2220129151028623787}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.87, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -165,7 +178,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2839111835769155620, guid: f4ae423a32c856648aae412fce037c75, type: 3}
+  m_Sprite: {fileID: 3356837773014537050, guid: 19ac8881bc92c482b91f0327cbff0193, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -189,8 +202,9 @@ GameObject:
   - component: {fileID: 7895578933100871328}
   - component: {fileID: 5797519690513359349}
   - component: {fileID: 6580601002849432971}
+  - component: {fileID: 6286056125736838290}
   m_Layer: 0
-  m_Name: PenguinTest
+  m_Name: ActiveCharacter
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -331,7 +345,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!114 &6580601002849432971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -345,6 +359,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   holdDownForMagnet: 0
+--- !u!95 &6286056125736838290
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3336536510107163739}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cb54b03bf137d3549bf21e52c8fe31df, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &8039096993527893215
 GameObject:
   m_ObjectHideFlags: 0
