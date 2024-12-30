@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Penny_Idle_0: -4059762701545521203
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
