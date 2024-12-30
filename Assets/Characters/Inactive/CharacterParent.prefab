@@ -165,18 +165,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3336536510107163739, guid: 1fc0d6d73d521c74db554ae72680e54c, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 6527363779945027586, guid: 1fc0d6d73d521c74db554ae72680e54c, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6580601002849432971, guid: 1fc0d6d73d521c74db554ae72680e54c, type: 3}
-      propertyPath: inactiveBear
-      value: 
-      objectReference: {fileID: 1902977524901412486}
     - target: {fileID: 6580601002849432971, guid: 1fc0d6d73d521c74db554ae72680e54c, type: 3}
       propertyPath: inactivePenguin
       value: 
@@ -207,11 +199,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fc0d6d73d521c74db554ae72680e54c, type: 3}
---- !u!212 &1902977524901412486 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 8937304109539176598, guid: 1fc0d6d73d521c74db554ae72680e54c, type: 3}
-  m_PrefabInstance: {fileID: 7381141703097601552}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7948483858228624027 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 585954697673766027, guid: 1fc0d6d73d521c74db554ae72680e54c, type: 3}

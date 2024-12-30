@@ -275,6 +275,8 @@ MonoBehaviour:
   bearMaterial: {fileID: 6200000, guid: e83d2e69f6f7dbf45bce5eddb3a8afdd, type: 2}
   activeCharacter: 
   holdDownForMagnet: 0
+  inactiveBear: {fileID: 8937304109539176598}
+  iPenguinRenderer: {fileID: 0}
 --- !u!95 &6286056125736838290
 Animator:
   serializedVersion: 7
