@@ -7,6 +7,10 @@ TagManager:
   - South Magnet
   - Env Magnet
   - PlayerMagnet
+  - IABear
+  - IAPenguin
+  - ABear
+  - APenguin
   layers:
   - Default
   - TransparentFX
