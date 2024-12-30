@@ -1,10 +1,11 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class CharaMovement : MonoBehaviour
 {
     private Rigidbody2D rb;
     const float DEF_SPEED = 2f;
-    const float DASH_SPEED = 5f;
+    const float DASH_SPEED = 6.5f;
 
     const string POLARITY = "SOUTH";
 
@@ -16,14 +17,21 @@ public class CharaMovement : MonoBehaviour
     float inputY;
     // -1 means pressing DOWN, 1 means pressing UP
 
+    const string PENGUIN = "penguin";
+    const string BEAR = "bear";
+    float rotationZ;
+    string activeCharacter;
+
     public bool holdDownForMagnet; //this should later be handled by game manager
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        print("hello world");
+        activeCharacter = PENGUIN;
         currSpeed = DASH_SPEED;
         magneticField = GetComponentInChildren<CircleCollider2D>();
         holdDownForMagnet = true;
+
+
     }
 
     void Update()
@@ -37,6 +45,28 @@ public class CharaMovement : MonoBehaviour
         HandleMagnet();
     }
 
+    private void FixedUpdate()
+    {
+        if (activeCharacter.Equals(PENGUIN))
+        {
+            LimitPenguinRotation();
+        }
+    }
+
+    void LimitPenguinRotation()
+    {
+        if (transform.rotation.z >= 45)
+        {
+            transform.rotation = Quaternion.Euler(0, 0, 45);
+            return;
+        }
+        if (transform.rotation.z <= -45)
+        {
+            transform.rotation = Quaternion.Euler(0, 0, -45);
+            return;
+        }
+    }
+
     public void UpdateMoveInputs()
     {
         inputX = Input.GetAxis("Horizontal");
@@ -47,6 +77,17 @@ public class CharaMovement : MonoBehaviour
     {
         rb.linearVelocityX = dir.x * currSpeed;
     }
+
+
+    void HandleSwapping()
+    {
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+
+        }
+    }
+
+
 
     void HandleMagnet()
     {
