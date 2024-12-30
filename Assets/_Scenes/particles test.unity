@@ -5928,6 +5928,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parallaxFactor: 0.35
+--- !u!1 &286174164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 286174165}
+  m_Layer: 0
+  m_Name: penguinBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &286174165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286174164}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.52, y: -0.81, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1078810059}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &358281565
 GameObject:
   m_ObjectHideFlags: 0
@@ -6061,7 +6092,7 @@ GameObject:
   - component: {fileID: 372220926}
   - component: {fileID: 372220925}
   - component: {fileID: 372220927}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17287,6 +17318,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1078810065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387633909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a55200f439674690bb23489e371c986, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  groundCheck: {fileID: 286174165}
+  groundCheckRadius: 0.2
+  squashFactor: 1.25
+  stretchFactor: 0.8
+  transitionSpeed: 15
+  groundParticleSystem: {fileID: 527188920}
 --- !u!1 &1136722714
 GameObject:
   m_ObjectHideFlags: 0
@@ -17548,6 +17600,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1192146404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1192146405}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1192146405
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1192146404}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1078810059}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1199724703
 GameObject:
   m_ObjectHideFlags: 0
@@ -17558,7 +17641,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1199724704}
   - component: {fileID: 1199724705}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Mountain_Layer_1_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19699,7 +19782,7 @@ GameObject:
   - component: {fileID: 1902269897}
   - component: {fileID: 1902269896}
   - component: {fileID: 1902269899}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Ground Profile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20385,7 +20468,7 @@ GameObject:
   - component: {fileID: 3666332942095958423}
   - component: {fileID: 3666332942095958420}
   - component: {fileID: 3666332942095958410}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Simple Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23142,6 +23225,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 585954697673766027, guid: 1fc0d6d73d521c74db554ae72680e54c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5209170}
+    - targetCorrespondingSourceObject: {fileID: 585954697673766027, guid: 1fc0d6d73d521c74db554ae72680e54c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1192146405}
+    - targetCorrespondingSourceObject: {fileID: 585954697673766027, guid: 1fc0d6d73d521c74db554ae72680e54c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 286174165}
     - targetCorrespondingSourceObject: {fileID: 7251843156106974904, guid: 1fc0d6d73d521c74db554ae72680e54c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1732653359}
@@ -23149,6 +23238,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3336536510107163739, guid: 1fc0d6d73d521c74db554ae72680e54c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1078810064}
+    - targetCorrespondingSourceObject: {fileID: 3336536510107163739, guid: 1fc0d6d73d521c74db554ae72680e54c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1078810065}
   m_SourcePrefab: {fileID: 100100000, guid: 1fc0d6d73d521c74db554ae72680e54c, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
