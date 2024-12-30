@@ -7,7 +7,6 @@ public class PolaritySwapper : MonoBehaviour
     private void Update()
     {
         SwapPolarities();
-        print(gameObject.layer);
     }
     const string NORTH_MAGNET = "North Magnet";
     const string SOUTH_MAGNET = "South Magnet";

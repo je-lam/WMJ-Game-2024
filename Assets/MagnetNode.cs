@@ -1,20 +1,20 @@
 using System.Drawing;
+using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
 
 public class MagnetNode : MonoBehaviour
 {
 
-    PointEffector2D magField;
 
     PointEffector2D[] magFields;
     SpriteRenderer nodeSpriteRenderer;
 
-    UnityEngine.Color originalColor;
+    [SerializeField]
+    Sprite disabledSprite;
     void Start()
     {
         magFields = GetComponentsInChildren<PointEffector2D>();
         nodeSpriteRenderer = GetComponent<SpriteRenderer>();
-        originalColor = nodeSpriteRenderer.color;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -29,7 +29,7 @@ public class MagnetNode : MonoBehaviour
                 magFields[i].enabled = false;
             }
 
-            nodeSpriteRenderer.color = UnityEngine.Color.gray;
+            nodeSpriteRenderer.sprite = disabledSprite;
         }
         else
         {

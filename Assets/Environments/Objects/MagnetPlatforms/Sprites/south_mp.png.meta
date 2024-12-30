@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 2e3fd30487e0e42ec9cc500c0d31ee3e
+guid: d14efaeae3a3e4a47b411cdd95f63559
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2827994782399703189
-    second: Untitled - December 29, 2024 23.18.46 2_0
-  - first:
-      213: -3551546625017921910
-    second: Untitled - December 29, 2024 23.18.46 2_1
+      213: 3916881841983987531
+    second: south_mp_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled - December 29, 2024 23.18.46 2_0
+      name: south_mp_0
       rect:
         serializedVersion: 2
-        x: 57
-        y: 10
-        width: 625
-        height: 646
+        x: 1187
+        y: 208
+        width: 1805
+        height: 310
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b6758609ab1f0c8d0800000000000000
-      internalID: -2827994782399703189
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Untitled - December 29, 2024 23.18.46 2_1
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 652
-        width: 7
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a8eb194592f56bec0800000000000000
-      internalID: -3551546625017921910
+      spriteID: b4f12a2684f8b5630800000000000000
+      internalID: 3916881841983987531
       vertices: []
       indices: 
       edges: []
@@ -159,9 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Untitled - December 29, 2024 23.18.46 2_0: -2827994782399703189
-      Untitled - December 29, 2024 23.18.46 2_1: -3551546625017921910
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

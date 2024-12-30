@@ -15,14 +15,24 @@ public class CharaMovement : MonoBehaviour
     float inputY;
     // -1 means pressing DOWN, 1 means pressing UP
 
-    const string PENGUIN = "penguin";
-    const string BEAR = "bear";
+    public const string PENGUIN = "penguin";
+    [SerializeField]
+    PhysicsMaterial2D penguinMaterial;
+    public const string BEAR = "bear";
+    [SerializeField]
+    PhysicsMaterial2D bearMaterial;
     float rotationZ;
-    string activeCharacter;
+    public string activeCharacter;
 
     Animator activeAnimator;
 
     public bool holdDownForMagnet; //this should later be handled by game manager
+
+    [SerializeField]
+    SpriteRenderer inactiveBear;
+
+    [SerializeField]
+    SpriteRenderer iPenguinRenderer;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -30,6 +40,7 @@ public class CharaMovement : MonoBehaviour
         currSpeed = DASH_SPEED;
         magneticField = GetComponentInChildren<CircleCollider2D>();
         activeAnimator = GetComponent<Animator>();
+
         holdDownForMagnet = true;
     }
 
@@ -89,13 +100,21 @@ public class CharaMovement : MonoBehaviour
     void SwapToBear()
     {
         SwapToBearAnimation();
+        rb.sharedMaterial = bearMaterial;
         activeCharacter = BEAR;
+
+        inactiveBear.enabled = false;
+        iPenguinRenderer.enabled = true;
     }
 
     void SwapToPenguin()
     {
         SwapToPenguinAnimation();
+        rb.sharedMaterial = penguinMaterial;
         activeCharacter = PENGUIN;
+
+        inactiveBear.enabled = true;
+        iPenguinRenderer.enabled = false;
     }
 
 
