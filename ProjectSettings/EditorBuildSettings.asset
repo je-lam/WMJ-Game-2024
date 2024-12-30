@@ -17,6 +17,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/North pole test.unity
     guid: 404366aec5b22654883f2e42ab1db3c1
+  - enabled: 1
+    path: Assets/_Scenes/tutorial level.unity
+    guid: 436f74930d3bd4312acd524d1584bb41
+  - enabled: 1
+    path: Assets/_Scenes/South pole test.unity
+    guid: 46a83f96d38ca0d4ca61247826e15f90
+  - enabled: 1
+    path: Assets/_Scenes/Death.unity
+    guid: c02e099546b9f4921962c5fdafe90e97
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
