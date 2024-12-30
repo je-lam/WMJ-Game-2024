@@ -5724,13 +5724,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4049583383027942584, guid: e947f739095edd241b3582073a8ccfd9, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.6100001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049583383027942584, guid: e947f739095edd241b3582073a8ccfd9, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.62
+      objectReference: {fileID: 0}
     - target: {fileID: 5688088735629666232, guid: e947f739095edd241b3582073a8ccfd9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25.2
       objectReference: {fileID: 0}
     - target: {fileID: 5688088735629666232, guid: e947f739095edd241b3582073a8ccfd9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 18.7
+      value: 18.4
       objectReference: {fileID: 0}
     - target: {fileID: 5688088735629666232, guid: e947f739095edd241b3582073a8ccfd9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5769,7 +5777,10 @@ PrefabInstance:
       value: North MagPlatform
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5317325826044843269, guid: e947f739095edd241b3582073a8ccfd9, type: 3}
+    - {fileID: 7866436561035093463, guid: e947f739095edd241b3582073a8ccfd9, type: 3}
+    - {fileID: 2529881260407904, guid: e947f739095edd241b3582073a8ccfd9, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e947f739095edd241b3582073a8ccfd9, type: 3}
