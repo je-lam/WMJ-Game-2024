@@ -5,12 +5,14 @@ public class MagnetNode : MonoBehaviour
 {
 
     PointEffector2D magField;
+
+    PointEffector2D[] magFields;
     SpriteRenderer nodeSpriteRenderer;
 
     UnityEngine.Color originalColor;
     void Start()
     {
-        magField = GetComponentInChildren<PointEffector2D>();
+        magFields = GetComponentsInChildren<PointEffector2D>();
         nodeSpriteRenderer = GetComponent<SpriteRenderer>();
         originalColor = nodeSpriteRenderer.color;
     }
@@ -20,7 +22,13 @@ public class MagnetNode : MonoBehaviour
         if (other.tag.Equals("Player"))
         {
             print("Collided!");
-            magField.enabled = false;
+
+            // DISABLES BOTH NORTH AND SOUTH!!!!
+            for (int i = 0; i < 2; i++)
+            {
+                magFields[i].enabled = false;
+            }
+
             nodeSpriteRenderer.color = UnityEngine.Color.gray;
         }
         else
