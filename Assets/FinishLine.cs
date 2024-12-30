@@ -8,7 +8,10 @@ public class FinishLine : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         winScreen.SetActive(true);
-        stopwatch.EndWatch();
+        if (stopwatch != null) 
+        {
+            stopwatch.EndWatch();
+        }
         print("finishing");
     }
 }

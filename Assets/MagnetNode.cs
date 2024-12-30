@@ -1,5 +1,4 @@
 using System.Drawing;
-using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
 
 public class MagnetNode : MonoBehaviour

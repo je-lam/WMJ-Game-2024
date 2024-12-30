@@ -46,8 +46,13 @@ public class Death1 : MonoBehaviour
         // Wait for 3 seconds
         yield return new WaitForSeconds(3f);
 
-
-        // Load the Death scene
-        SceneManager.LoadScene("Death");
+        if (SceneManager.GetActiveScene().name == "tutorial level")
+        {
+            SceneManager.LoadScene("tutorial level");
+        } else {
+            // Load the Death scene
+            SceneManager.LoadScene("Death");
+        }
     }
+    
 }
