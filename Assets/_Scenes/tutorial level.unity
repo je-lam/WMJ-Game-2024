@@ -2112,11 +2112,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &258102187 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2410956958660022815, guid: 496fdd196d25e794089ff9165d9d8bfc, type: 3}
-  m_PrefabInstance: {fileID: 390767158}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &276322472
 GameObject:
   m_ObjectHideFlags: 0
@@ -10886,7 +10881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CameraTargets:
-  - TargetTransform: {fileID: 258102187}
+  - TargetTransform: {fileID: 1171553700}
     TargetInfluenceH: 1
     TargetInfluenceV: 1
     TargetOffset: {x: 0, y: 0}
@@ -13028,6 +13023,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1156157068}
   m_CullTransparentMesh: 1
+--- !u!4 &1171553700 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7948483858228624027, guid: 496fdd196d25e794089ff9165d9d8bfc, type: 3}
+  m_PrefabInstance: {fileID: 390767158}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1175287000
 GameObject:
   m_ObjectHideFlags: 0
