@@ -758,7 +758,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &68506792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12490,6 +12490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17c479f2d609145b4a23abf744f90d44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathClips: []
 --- !u!1 &770780561
 GameObject:
   m_ObjectHideFlags: 0
