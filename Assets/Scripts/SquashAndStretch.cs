@@ -18,20 +18,23 @@ public class SquashAndStretch : MonoBehaviour
 
     private Vector3 originalScale;
     private bool isGrounded;
+    private bool wasGrounded;
+    private Rigidbody2D rb;
 
     void Start()
     {
         // Store the original scale of the character
         originalScale = transform.localScale;
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
         // Check if the character is grounded
-        bool wasGrounded = isGrounded;
+        bool previouslyGrounded = isGrounded;
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
-        if (isGrounded && !wasGrounded)
+        if (isGrounded && !previouslyGrounded)
         {
             // Apply squash and stretch effect on landing
             StopAllCoroutines();
@@ -43,7 +46,7 @@ public class SquashAndStretch : MonoBehaviour
                 groundParticleSystem.Play();
             }
         }
-        else if (!isGrounded && wasGrounded)
+        else if (!isGrounded && previouslyGrounded)
         {
             // Stop particle system when leaving the ground
             if (groundParticleSystem != null && groundParticleSystem.isPlaying)
@@ -51,6 +54,15 @@ public class SquashAndStretch : MonoBehaviour
                 groundParticleSystem.Stop();
             }
         }
+
+        // Stop particle system if speed is 0
+        if (groundParticleSystem != null && rb.linearVelocity.magnitude == 0 && groundParticleSystem.isPlaying)
+        {
+            groundParticleSystem.Stop();
+        }
+
+        // Update wasGrounded
+        wasGrounded = isGrounded;
     }
 
     private IEnumerator SquashAndStretchEffect()
