@@ -252,6 +252,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1434,7 +1447,60 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Win_Icon_0: -4226684934495769636
+      Win_Icon_1: 4681406867918948638
+      Win_Icon_10: 8735884780043245505
+      Win_Icon_11: 6458342911689541345
+      Win_Icon_12: -2543615213829572078
+      Win_Icon_13: 6619303929978497516
+      Win_Icon_14: -1910569192152223625
+      Win_Icon_15: -7380627624324324605
+      Win_Icon_16: -5362589914518615412
+      Win_Icon_17: -3465885426794356584
+      Win_Icon_18: -2982649458186276594
+      Win_Icon_19: 3126461110258763877
+      Win_Icon_2: -1623697558114955325
+      Win_Icon_20: -133658489278502487
+      Win_Icon_21: 570908786908456989
+      Win_Icon_22: -3195580063005318856
+      Win_Icon_23: -8764273752908434611
+      Win_Icon_24: 7239188516506216201
+      Win_Icon_25: -2745081714857476268
+      Win_Icon_26: 7756127023091083265
+      Win_Icon_27: -1440284926937435333
+      Win_Icon_28: 1297560136880067073
+      Win_Icon_29: 7012300290393030661
+      Win_Icon_3: 6252022921185237939
+      Win_Icon_30: 423353159469991447
+      Win_Icon_31: -2123047885919726378
+      Win_Icon_32: -5571351105185534115
+      Win_Icon_33: 5802411264372837693
+      Win_Icon_34: -6989643131106648956
+      Win_Icon_35: 5376294183484789566
+      Win_Icon_36: 9212952209324239312
+      Win_Icon_37: 3009236066161440414
+      Win_Icon_38: -1847458267320648184
+      Win_Icon_39: 6154048559190162761
+      Win_Icon_4: -1395391739267752818
+      Win_Icon_40: -937099241989102975
+      Win_Icon_41: 1318392689034184149
+      Win_Icon_42: 5624483147524288588
+      Win_Icon_43: 7283579682238819040
+      Win_Icon_44: 4279139651795735972
+      Win_Icon_45: 7050821301454525141
+      Win_Icon_46: -1614232709073657229
+      Win_Icon_47: 2625718278054496070
+      Win_Icon_48: 7835654691309097403
+      Win_Icon_49: -6164459223964895492
+      Win_Icon_5: 5409972324223396010
+      Win_Icon_50: 3704596968821831812
+      Win_Icon_51: 5463340672247879802
+      Win_Icon_52: 673684997544814318
+      Win_Icon_6: -4869317743958808963
+      Win_Icon_7: -5032866542599099729
+      Win_Icon_8: 6873511138481417463
+      Win_Icon_9: 123057902726291805
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
