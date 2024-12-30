@@ -5,6 +5,6 @@ using UnityEngine.SceneManagement;
 public class Play : MonoBehaviour
 {
     public void playGame(){
-        SceneManager.LoadScene("2D_BaseScene");
+        SceneManager.LoadScene("tutorial level");
         }
 }
