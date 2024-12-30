@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Landscape2shore_0: 966143300397919378
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

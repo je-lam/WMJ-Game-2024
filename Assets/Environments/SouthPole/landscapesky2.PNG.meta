@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      landscapesky2_0: 6475750219362690603
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
