@@ -18,6 +18,7 @@ public class CharaMovement : MonoBehaviour
     // -1 means pressing DOWN, 1 means pressing UP
 
     const string PENGUIN = "penguin";
+    float rotZ;
     const string BEAR = "bear";
     float rotationZ;
     string activeCharacter;
@@ -55,16 +56,8 @@ public class CharaMovement : MonoBehaviour
 
     void LimitPenguinRotation()
     {
-        if (transform.rotation.z >= 45)
-        {
-            transform.rotation = Quaternion.Euler(0, 0, 45);
-            return;
-        }
-        if (transform.rotation.z <= -45)
-        {
-            transform.rotation = Quaternion.Euler(0, 0, -45);
-            return;
-        }
+        rotationZ = Mathf.Clamp(transform.localRotation.z, -90, 90);
+        transform.localRotation = Quaternion.Euler(rotationZ, 0, 0);
     }
 
     public void UpdateMoveInputs()
