@@ -27509,8 +27509,8 @@ MonoBehaviour:
     m_Bits: 512
   groundCheck: {fileID: 286174165}
   groundCheckRadius: 1.94
-  squashFactor: 1.25
-  stretchFactor: 0.8
+  squashFactor: 0.8
+  stretchFactor: 1.25
   transitionSpeed: 15
   groundParticleSystem: {fileID: 527188920}
 --- !u!1 &1087263716
